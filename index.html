@@ -12,59 +12,119 @@
     <meta property="og:description" content="InstaRevu aggregates and transforms product data into instant shopping decision driving system. Search for reviews, opinions of products across multiple retailers in an instant."/>
     <meta property="og:image" content="http://www.instarevu.com/docs-assets/img/logo/logo_300_px.png" />
 
-	<title>InstaRevu - Instant Decision Support System for Buying.</title>
+	<title>ObjectMetrics - eCommerce & Retail Analytics.</title>
 
 	<!-- Bootstrap core CSS -->
-	<link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.2/css/bootstrap.min.css">
-	<style>.top-buffer { margin-top:100px; }</style>
+	<link rel="stylesheet" href="./dist/css/bootstrap.min.css" media="screen">
+	<link rel="stylesheet" href="./dist/css/yeti.min.css" media="screen">
+
+	<style type="text/css">
+
+      .jumbotron {
+          position: relative;
+          z-index: 3;
+      }
+
+      .jumbotron:after {
+          background: linear-gradient(rgba(255,255,255,0), rgba(255,255,255,1)), url('../site/img/site/jumbobackgound.png');
+          background-size: contain;
+          left: 0; right: 0; top: 0; bottom: 0;
+          content: "";
+          display: block;
+          position: relative;
+          z-index: 2;
+      }
+  </style>
+
 
   </head>
   
-  <body class="bs-docs-home">
-  
-  	 <div class="container">
-  	 </div>
+	<body>
+		
+  		<nav class="navbar navbar-default" role="navigation">
+  			<div class="container">
+	        <div class="navbar-header">
+	        	<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+	            	<span class="sr-only">Toggle navigation</span>
+	            	<span class="icon-bar"></span>
+	            	<span class="icon-bar"></span>
+	            	<span class="icon-bar"></span>
+	          	</button>
+	          	<a class="navbar-brand" href="#">Retailytics</a>
+	        </div>
+	        <div class="collapse navbar-collapse">
+	        	<ul class="nav navbar-nav">
+	            	<li class="active"><a href="#">Home</a></li>
+	            	<li><a href="#product">Product</a></li>
+	            	<li><a href="#solution">Solution</a></li>
+	            	<li><a href="#solution">Pricing</a></li>
+	            	<li><a href="#about">About</a></li>
+	            	<li><a href="#contact">Contact</a></li>
+	          	</ul>
+	        </div><!--/.nav-collapse -->
+	        <div>
+	    </nav>
 
-    <div class="container">
-      <div class="starter-template">
-        <div class="row top-buffer">
-		  <div class="col-md-3"><img src="./img/logos/logo_300_px.png" class="img-responsive" alt="InstaRevu Logo"></div>
-		  <div class="col-md-7"></div>
+	    <div class="container">
+		    <div class="container">
+				<div class="jumbotron">
+				    <div class="container">
+				        <h1>Retailytics</h1>
+				        <p class="lead">Tomorrow’s Brands & Retailers need to provide their customers with new ways to interact and shop, while at the same time meeting the perennial challenges of the business: winning consumers while driving down costs.</p>
+				        <button type="button" class="btn btn-success btn-md">Learn More</button>
+				    </div>
+			  	</div>
+	  		</div>
+
+	  		<div class="container">
+		  		<div class="row">
+			        <div class="col-sm-6 col-md-4">
+			          <div class="thumbnail well">
+			            <img class="img-responsive" src="img/site/analyticsincart.png" alt="Product Manufactures" width="300" height="300"/>
+			            <div class="caption">
+			              <h4><b>Manufacturers</b></h4>
+			              <p>Object Metrics Business Analytics has solutions for electronics, aerospace, automotive and industrial products manufacturers that help them understand customers and plan demand, optimize sales and operations planning, build smarter supply chains, predict maintenance issues and reduce impact.</p>
+			              <p><a href="#" class="btn btn-primary" role="button">Learn More</a></p>
+			            </div>
+			          </div>
+			        </div>
+			        <div class="col-sm-6 col-md-4">
+			          <div class="thumbnail well">
+			            <img  class="img-responsive" src="img/site/retailers.jpg" alt="Retailers" width="300" height="300"/>
+			            <div class="caption">
+			              <h4><b>Retailers</b></h4>
+			              <p>Analyzing more than 20 million shoppers a month across dozens of retail chains, Object Metrics is the leading provider of online user retail analytics. Object Metrics is the leader in Applied Big Data for retailers, We collect and correlate massive quantities of datain which we seek to draw actionable inferences from customers’ behavior. </p>
+			              <p><a href="#" class="btn btn-primary" role="button">Learn More</a></p>
+			            </div>
+			          </div>
+			        </div>
+			        <div class="col-sm-6 col-md-4">
+			          <div class="thumbnail well">
+			            <img class="img-responsive" src="img/site/advanalytics.jpg" alt="Advertisers" />
+			            <div class="caption">
+			              <h4><b>Advertisers</b></h4>
+			              <p>Optimize digitalmarketing effectiveness. As more advertiser dollars move to digital, it’s crucial to optimize every aspect of a campaign. Object Metrics Advertising suite drives each step, from defining campaign strategy to in-flight optimization and post-campaign evaluation. Plan with power using media planning and analysis tools.</p>
+			              <p><a href="#" class="btn btn-primary" role="button">Learn More</a></p>
+			            </div>
+			          </div>
+			        </div>
+		    	</div>
+		    	<div style="margin:50px;"></div>
+		    	<footer>
+		    		<div class="panel panel-default panel-heading well">
+		    			<span class="text-muted" style="margin-right:20px;"><img src="img/site/email.jpg" alt="Contact Email" width="40" height="40"/> Email</span>
+		    			<span class="text-muted" style="margin-right:20px;"><img src="img/site/phone.jpg" alt="Contact Phone" width="30" height="30"/> Contact Us</span>
+		    			<span class="text-muted" style="margin-right:20px;"><img src="img/site/twitterlogo.jpg" alt="Twitter Logo" width="38" height="38"/> Twitter</span>
+		    			<span class="text-info pull-right">&copy; Object Metrics Inc 2013 - 2014</span>
+			    	</div>
+	      		</footer>
+			</div>
 		</div>
-		<div class="row">
-		  <div class="col-md-3">&nbsp;</div>
-		  <div class="col-md-7">&nbsp;</p></div>
-		</div>
-        <div class="row">
-		  <div class="col-md-1"></div>
-		  <div class="col-md-9"><h2><small><font color="gray">InstaRevu <em>( pronounced InstaReview )</em> aggregates and transforms product data into instant shopping decision driving system. We found InstaRevu to serve a need for better decision making system to support smart shopping needs of buyers. Unfortunately there is not a service that offers this for their users, thats why we found InstaRevu.</font></small></h2></div>
-		</div>
-		<div class="row">
-		  <div class="col-md-3">&nbsp;</div>
-		  <div class="col-md-7">&nbsp;</div>
-		</div>
-        <div class="row">
-		  <div class="col-md-1"></div>
-		  <div class="col-md-9">
-		  	<h3><small>Hang tight, we are working diligently to bring you the awesome platform that will change the way you shop. If you are interested in hearing more please contact us at address below.</small></h3>
-			<address>
-				<a href="mailto:#">instarevu@gmail.com</a>
-			</address>
-		  </div>
-		</div>
-      </div>
-    </div>
+		
+
 
     <!-- Placed at the end of the document so the pages load faster -->
-    <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
-    <script src="//netdna.bootstrapcdn.com/bootstrap/3.0.3/js/bootstrap.min.js"></script>
-    <script>
-   		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-		  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o), m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-		})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-		ga('create', 'UA-46110681-1', 'instarevu.com');
-		ga('send', 'pageview');
-	</script>
-
+    <script src="https://code.jquery.com/jquery-2.0.3.min.js"></script>
+    <script src="./dist/js/bootstrap.min.js"></script>
   </body>
 </html>
